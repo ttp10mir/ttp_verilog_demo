@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module tb_tt_um_mattvenn_seven_segment_seconds;
+module tb_tt_um_multi;
 
     // Testbench signals
     reg [7:0] ui_in;        // Inputs
@@ -13,7 +13,7 @@ module tb_tt_um_mattvenn_seven_segment_seconds;
     reg rst_n;              // Reset signal
 
     // Instantiate the design under test (DUT)
-    tt_um_mattvenn_seven_segment_seconds dut (
+    tt_um_multi dut (
         .ui_in(ui_in),
         .uo_out(uo_out),
         .uio_in(uio_in),
